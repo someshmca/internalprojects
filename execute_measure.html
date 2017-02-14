@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HEDIS Execute Measure</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom-styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+	<div class="mainWrapArea">
+    <nav class="navbar navbar-default headerArea">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">HEDIS Measure</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+		</ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="bodyContentArea">
+		<div class="container">
+			<form class="form-horizontal">
+				<fieldset class="fieldSet1">
+					<legend>Execute Measure</legend>
+					<div class="form-group">
+						<label class="control-label col-sm-2 col-xs-12" for="measurementYear">Measurement Year</label>
+						<div class="col-sm-8 col-xs-12">
+							<input class="form-control" type="text" id="measurementYear" placeholder="Measure Year"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2 col-xs-12" for="productLine">Product Line</label>
+						<div class="col-sm-8 col-xs-12">
+							<select class="form-control" id="productLine">
+								<option>Select Product Line</option>
+								<option>Product Line 1</option>
+								<option>Product Line 2</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2 col-xs-12" for="healthPlanId">Health Plan ID</label>
+						<div class="col-sm-8 col-xs-12">
+							<select class="form-control" id="healthPlanId">
+								<option>Select Health Plan ID</option>
+								<option>Health Plan ID 1</option>
+								<option>Health Plan ID 2</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2 col-xs-12" for="category">Category</label>
+						<div class="col-sm-8 col-xs-12">
+							<select class="form-control" id="category">
+								<option>Select Category</option>
+								<option>Category 1</option>
+								<option>Category 2</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2 col-xs-12" for="gender">Gender</label>
+						<div class="col-sm-8 col-xs-12">
+							<select class="form-control" id="gender">
+								<option>Select Gender</option>
+								<option value="1">Male</option>
+								<option value="0">Female</option>
+								<option value="0.5">Transgender</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2 col-xs-12" for="speciality">Speacility</label>
+						<div class="col-sm-8 col-xs-12">
+							<select class="form-control" id="speciality" multiple="multiple">
+								<option>Select</option>
+								<option>Addiction Medicine</option>
+								<option>Allergy/Immunology</option>
+								<option>Anesthesiology</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-8 col-xs-12">
+							<button type="button" class="btn btn-success">Execute</button>
+						</div>
+					</div>
+					<br clear="all"/>
+				</fieldset>
+			</form>
+		</div> <!-- container -->
+	</div> <!-- end of bodyContentArea -->
+
+      <footer class="footerArea">
+		 <div class="container">
+			<p>&copy; 2017 Company Name, Inc.</p>
+		</div>
+      </footer>
+    </div>  <!-- mainWrapArea -->
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+	    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/custom-script.js"></script>
+  </body>
+</html>
